@@ -6,3 +6,12 @@ modules:
  - name: web
    type: html5
    path: web
+   requires:
+    - name: levxcars52-uaa
+    
+resources:
+ - name: levxcars52-uaa
+   parameters:
+     config_path: ./xs-security.json
+   type: com.sap.xs.uaa
+  
